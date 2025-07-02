@@ -1,1 +1,32 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    // If-else example
+    if (number % 2 == 0) {
+        cout << number << " is Even." << endl;
+    } else {
+        cout << number << " is Odd." << endl;
+    }
+
+    // For loop example
+    cout << "Counting from 1 to 5: ";
+    for (int i = 1; i <= 5; i++) {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    // While loop example
+    int i = 1;
+    cout << "While Loop (1 to 3): ";
+    while (i <= 3) {
+        cout << i << " ";
+        i++;
+    }
+
+    return 0;
+}
